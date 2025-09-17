@@ -1,0 +1,16 @@
+{
+  "name": "langtache",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/mustache": "^4.2.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "mustache": "^4.2.0",
+    "openai": "^5.20.1"
+  }
+}
