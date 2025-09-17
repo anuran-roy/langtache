@@ -1,7 +1,7 @@
 import { ALL, parseJSON } from "partial-json";
 
 // Helper to check if a value is a non-null object
-function isObjectorArray(
+export function isObjectorArray(
   value: any,
 ): value is Record<string, any> | Array<any> {
   return Array.isArray(value) || (typeof value === "object" && value !== null);

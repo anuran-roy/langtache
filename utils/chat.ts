@@ -2,7 +2,7 @@ import Mustache from "mustache";
 import type OpenAI from "openai";
 import type { z } from "zod";
 import { zodToJsonSchema } from 'zod-to-json-schema';
-import { parseUntilJson } from "../parsing/parseUntilJson";
+import { parseUntilJson } from "./parseUntilJson";
 
 export class ChatPromptTemplateNew {
   protected template = "";
@@ -25,7 +25,7 @@ export class ChatPromptTemplateNew {
     const variables: string[] = [];
     let match: RegExpExecArray | null = variableRegex.exec(template);
     while (match !== null) {
-      variables.push(match[1]);
+      variables.push(match[1] ?? "");
       match = variableRegex.exec(template);
     }
     const instance = new ChatPromptTemplateNew({
