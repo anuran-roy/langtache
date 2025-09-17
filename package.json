@@ -12,6 +12,7 @@
   "dependencies": {
     "mustache": "^4.2.0",
     "openai": "^5.20.1",
+    "partial-json": "^0.1.7",
     "zod": "^4.1.9",
     "zod-to-json-schema": "^3.24.6"
   }
