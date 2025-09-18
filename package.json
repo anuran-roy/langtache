@@ -2,6 +2,15 @@
   "name": "@anuran-roy/langtache",
   "version": "0.1.0-patch",
   "description": "Mustache-driven chat prompt helpers",
+  "keywords": [
+    "langchain",
+    "genai",
+    "openai",
+    "llm",
+    "generative-ai",
+    "rag",
+    "mustache"
+  ],
   "type": "module",
   "main": "dist/index.cjs",
   "module": "dist/index.js",
