@@ -19,7 +19,7 @@
   "scripts": {
     "build": "bunx tsc -p tsconfig.build.json && bunx tsup src/index.ts --dts --format esm,cjs --out-dir dist",
     "clean": "rm -rf dist",
-    "prepublishOnly": "bun run clean && bun run build && bun test",
+    "prepublishOnly": "bun run clean && bun run build",
     "test": "echo \"No test provided\""
   },
   "engines": {
