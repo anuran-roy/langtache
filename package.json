@@ -30,6 +30,8 @@
   "repository": "github:anuran-roy/langtache",
   "dependencies": {
     "@types/mustache": "^4.2.6",
+    "mustache": "^4.2.0",
+    "partial-json": "^0.1.7",
     "typescript": "^5.9.2"
   },
   "devDependencies": {
