@@ -1,6 +1,6 @@
 {
   "name": "@anuran-roy/langtache",
-  "version": "0.1.0-fix1",
+  "version": "0.1.0-patch",
   "description": "Mustache-driven chat prompt helpers",
   "type": "module",
   "main": "dist/index.cjs",
